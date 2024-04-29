@@ -4,6 +4,16 @@
 
 #include "sort.h"
 
+
+void swap(int *x, int *y)
+{
+	int temp;
+
+	temp = *x;
+	*x = *y;
+	*y = temp;
+}
+
 /**
  * bubble_sort - Sort an array of integers in ascending order.
  * @array: An array of integers to sort.
